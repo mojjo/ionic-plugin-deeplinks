@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ionic-plugin-deeplinks" version="1.0.22">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="ionic-plugin-deeplinks" version="1.0.25">
 	<name>Ionic Deeplink Plugin</name>
 	<description>Ionic Deeplink Plugin</description>
 	<license>MIT</license>
@@ -19,6 +19,9 @@
 		<preference name="ANDROID_3_PATH_PREFIX" default="/" />
 		<preference name="ANDROID_4_PATH_PREFIX" default="/" />
 		<preference name="ANDROID_5_PATH_PREFIX" default="/" />
+		<preference name="ANDROID_6_PATH_PREFIX" default="/" />
+		<preference name="ANDROID_7_PATH_PREFIX" default="/" />
+		<preference name="ANDROID_8_PATH_PREFIX" default="/" />
 
 		<preference name="DEEPLINK_2_SCHEME" default=" " />
 		<preference name="DEEPLINK_2_HOST" default=" " />
@@ -28,6 +31,12 @@
 		<preference name="DEEPLINK_4_HOST" default=" " />
 		<preference name="DEEPLINK_5_SCHEME" default=" " />
 		<preference name="DEEPLINK_5_HOST" default=" " />
+		<preference name="DEEPLINK_6_SCHEME" default=" " />
+		<preference name="DEEPLINK_6_HOST" default=" " />
+		<preference name="DEEPLINK_7_SCHEME" default=" " />
+		<preference name="DEEPLINK_7_HOST" default=" " />
+		<preference name="DEEPLINK_8_SCHEME" default=" " />
+		<preference name="DEEPLINK_8_HOST" default=" " />
 
 		<js-module src="www/deeplink.js" name="deeplink">
 			<runs/>
@@ -57,6 +66,9 @@
 				<data android:scheme="$DEEPLINK_3_SCHEME" android:host="$DEEPLINK_3_HOST" android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
 				<data android:scheme="$DEEPLINK_4_SCHEME" android:host="$DEEPLINK_4_HOST" android:pathPrefix="$ANDROID_4_PATH_PREFIX" />
 				<data android:scheme="$DEEPLINK_5_SCHEME" android:host="$DEEPLINK_5_HOST" android:pathPrefix="$ANDROID_5_PATH_PREFIX" />
+				<data android:scheme="$DEEPLINK_6_SCHEME" android:host="$DEEPLINK_6_HOST" android:pathPrefix="$ANDROID_6_PATH_PREFIX" />
+				<data android:scheme="$DEEPLINK_7_SCHEME" android:host="$DEEPLINK_7_HOST" android:pathPrefix="$ANDROID_7_PATH_PREFIX" />
+				<data android:scheme="$DEEPLINK_8_SCHEME" android:host="$DEEPLINK_8_HOST" android:pathPrefix="$ANDROID_8_PATH_PREFIX" />
 			</intent-filter>
 		</config-file>
 
